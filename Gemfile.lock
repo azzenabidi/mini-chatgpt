@@ -167,7 +167,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
-    openai (0.3.0)
     psych (5.2.0)
       stringio
     public_suffix (6.0.1)
@@ -282,10 +281,9 @@ DEPENDENCIES
   dotenv-rails
   importmap-rails
   jbuilder
-  openai
   puma
   rails (~> 8.0.0)
-  ruby-openai (~> 5.1)
+  ruby-openai
   selenium-webdriver
   sprockets-rails
   sqlite3 (>= 2.1.0)
